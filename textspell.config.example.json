@@ -1,0 +1,34 @@
+{
+  "paths": [
+    "src/**/*.js",
+    "src/**/*.ts",
+    "public/**/*.html",
+    "README.md"
+  ],
+  "keys": {
+    "LOREM": {
+      "type": "words",
+      "default": 50
+    },
+    "LOREM_CHARS": {
+      "type": "chars",
+      "default": 200
+    },
+    "DESC": {
+      "type": "words",
+      "default": 120
+    }
+  },
+  "custom": {
+    "TURKISH_LOREM": {
+      "type": "words",
+      "language": "tr",
+      "default": 80
+    }
+  },
+  "options": {
+    "dryRun": false,
+    "backup": false,
+    "verbose": true
+  }
+}

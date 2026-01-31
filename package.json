@@ -1,0 +1,49 @@
+{
+  "name": "textspell",
+  "version": "1.0.0",
+  "description": "CLI tool for automatic placeholder replacement with generated Lorem Ipsum text",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "textspell": "./bin/textspell.js"
+  },
+  "scripts": {
+    "test": "echo \"Tests coming soon\" && exit 0"
+  },
+  "keywords": [
+    "lorem-ipsum",
+    "placeholder",
+    "text-generator",
+    "cli",
+    "lorem",
+    "dummy-text",
+    "fake-text",
+    "generator",
+    "automation",
+    "development-tools"
+  ],
+  "author": "KOeker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KOeker/textspell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KOeker/textspell/issues"
+  },
+  "homepage": "https://github.com/KOeker/textspell#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "glob": "^13.0",
+    "lorem-ipsum": "^2.0"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md",
+    "LICENSE",
+    "textspell.config.example.json"
+  ]
+}
